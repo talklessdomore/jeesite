@@ -1,1 +1,12 @@
 hello world
+#获取
+GET _mget
+{
+  "docs":[
+    {
+      "_index":"users",
+      "_type":"_doc",
+      "_id":1
+    }
+  ]
+}
